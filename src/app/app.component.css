@@ -1,0 +1,45 @@
+.heading-wrapper{
+  text-align: center;
+  margin-top:20%;
+}
+.heading, .main-btn{
+  font-size:50px;
+  text-transform: uppercase;
+  font-weight:900;
+}
+.heading{
+  color: darkred;
+}
+.main-btn{
+  margin-top:50px;
+  background: darkred;
+  color: #999;
+  border: none;
+  border-radius: 3px;
+  padding: 5px 20px;
+}
+.main-btn:hover{
+  cursor: pointer;
+  background: #540000;
+  transition: 0.5s;
+}
+
+h1{
+  text-align: center;
+  color: darkred;
+  margin-top: 50px;
+}
+.game-wrapper{
+  margin-top:50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.game{
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  width: 900px;
+  background: #777;
+  padding-bottom: 40px;
+}

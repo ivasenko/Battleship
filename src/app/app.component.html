@@ -1,0 +1,15 @@
+<div *ngIf="isStarted">
+<h1>
+  {{title}}
+</h1>
+<div class="game-wrapper">
+  <div class="game">
+    <bb-player1></bb-player1>
+    <bb-player2></bb-player2>
+  </div>
+</div>
+</div>
+<div class="heading-wrapper" *ngIf="!isStarted">
+  <div class="heading">let`s play, my dear friend</div>
+  <button class="main-btn" (click)="cli()">PLAY</button>
+</div>

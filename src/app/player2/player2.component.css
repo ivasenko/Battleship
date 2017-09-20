@@ -1,0 +1,47 @@
+.wrapper-player1{
+  text-align: center;
+}
+.heading-for-player{
+  display: flex;
+  justify-content: space-between;
+  color: #fff;
+  font-weight:900;
+  font-size:18px;
+  text-transform: uppercase;
+  margin: 20px 0;
+}
+.score{
+  background: darkred;
+  color: #fff;
+  padding: 0 20px;
+}
+a{
+  display: inline-block;
+  width:30px;
+  height:30px;
+}
+td{
+  width:30px;
+  height:30px;
+  background: orange;
+}
+td:first-child{
+  background: transparent;
+  border: 1px solid orange;
+  color: #fff;
+}
+
+.letters:first-child{
+  border: none;
+}
+.letters{
+  background: transparent;
+  border: 1px solid orange;
+  color: #fff;
+}
+.speech{
+  margin-top: 20px;
+  color: #fff;
+  font-weight:900;
+  font-size:18px;
+}
